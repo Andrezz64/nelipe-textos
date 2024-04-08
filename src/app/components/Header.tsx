@@ -23,12 +23,12 @@ export default function Header() {
       }`}
     >
       <div className="flex itemns-center">
-        <div className="w-[80%]">
+        <a href="/" className="w-[80%]">
           <h1 className="ml-5">
             <span>Alexandria do </span>
             <span className="text-[#d32b0d]">Caos</span>
           </h1>
-        </div>
+        </a>
         <div className="w-[0%]">
           <nav>
             <ul
