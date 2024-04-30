@@ -27,27 +27,29 @@ export default function Texto({ params }: { params: { TextoPath: any } }) {
   return (
     <div>
       <title>{Texto?.Titulo}</title>
-       
+
       <div className="flex justify-center items-center gap-5 flex-col p-3">
-
+      <a href="/textos" className="mt-[10rem] fixed">
+                {" "}
+                {"<-- "}Textos
+              </a>
         <div className="mt-10">
-        {
-            Texto?(
-               <div>
-                 <a href="/textos" className=""> {"<-- "}Textos</a>
-                <h1 className=" mt-2 text-xl text-center max-w-[51rem] max-md:w-[30]">
-                  {Texto?.Titulo}
-                </h1>
-                
-                  <h2 className="text-sm flex mt-5 mb-5 items-center gap-1 italic">
-                    {" "}
-                    <PenNib size={17} color="#d32b0d" />
-                    Por <strong>{Texto?.Autor}</strong> em {Texto?.Data}
-                  </h2>
-               </div>
-            ):("")
-        }
+          {Texto ? (
+            <div>
 
+              <h1 className=" mt-2 text-xl text-center max-w-[51rem] max-md:w-[30]">
+                {Texto?.Titulo}
+              </h1>
+
+              <h2 className="text-sm flex mt-5 mb-5 items-center gap-1 italic">
+                {" "}
+                <PenNib size={17} color="#d32b0d" />
+                Por <strong>{Texto?.Autor}</strong> em {Texto?.Data}
+              </h2>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
         {Texto ? (
           <div className=" bg-white p-1 rounded-lg">
