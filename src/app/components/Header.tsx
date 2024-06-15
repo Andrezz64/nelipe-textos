@@ -30,16 +30,16 @@ export default function Header() {
           </h1>
         </a>
         <div className="w-[0%]">
-          <nav className="">
+          <nav>
             <ul
               className={`flex gap-2 max-md:hidden ${
                 isScrolled ? "hidden" : ""
               }`}
             >
-              <li className="border-b-2 border-transparent hover:border-[#d32b0d] duration-300">
+              <li>
                 <a href="/">Home</a>
               </li>
-              <li className="border-b-2 border-transparent hover:border-[#d32b0d] duration-300">
+              <li>
                 <a href="/textos">Textos</a>
               </li>
               <li></li>
