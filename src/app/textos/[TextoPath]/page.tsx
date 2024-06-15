@@ -29,14 +29,14 @@ export default function Texto({ params }: { params: { TextoPath: any } }) {
       <title>{Texto?.Titulo}</title>
 
       <div className="flex justify-center items-center gap-5 flex-col p-3">
-      <a href="/textos" className="mt-[10rem] fixed">
-                {" "}
-                {"<-- "}Textos
-              </a>
+      
         <div className="mt-10">
           {Texto ? (
             <div>
-
+              <a href="/textos" className="border-b-2 border-transparent hover:border-[#d32b0d] duration-300">
+                {" "}
+                {"<-- "}Textos
+              </a>
               <h1 className=" mt-2 text-xl text-center max-w-[51rem] max-md:w-[30]">
                 {Texto?.Titulo}
               </h1>

@@ -36,13 +36,12 @@ export default function Header() {
                 isScrolled ? "hidden" : ""
               }`}
             >
-              <li>
+                <li className="border-b-2 border-transparent hover:border-[#d32b0d] duration-300">
                 <a href="/">Home</a>
               </li>
-              <li>
+              <li className="border-b-2 border-transparent hover:border-[#d32b0d] duration-300">
                 <a href="/textos">Textos</a>
               </li>
-              <li></li>
             </ul>
           </nav>
         </div>
