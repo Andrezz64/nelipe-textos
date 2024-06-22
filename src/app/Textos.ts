@@ -8,6 +8,15 @@ interface TextosInterface {
 }
 
 const Textos: Array<TextosInterface> = [
+   {
+    Titulo: "Helena",
+    Autor: "Nelipe",
+    Data: "22/06/2024",
+    Path: "helena",
+    Genero: "Crônica",
+    LinkEmbded:
+      "https://docs.google.com/document/d/e/2PACX-1vSMzZM_GBcxBJz4wmuyE8kRNguyJJFr1jlAhvX0wNN0_ycITt6dTe3Fzx9qOzAzdfX0bwMKdKwsk39a/pub?embedded=true"
+  },
   {
     Titulo: "O desespero de te amar/me odiar",
     Autor: "Nelipe",
