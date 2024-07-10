@@ -8,7 +8,16 @@ interface TextosInterface {
 }
 
 const Textos: Array<TextosInterface> = [
-   {
+  {
+    Titulo: "Amores, Vícios e Obsessões",
+    Autor: "Nelipe",
+    Data: "10/07/2024",
+    Path: "amores-vicios-e-obesessoes",
+    Genero: "Crônica",
+    LinkEmbded:
+      "https://docs.google.com/document/d/e/2PACX-1vSL0Yrn_8Qe4nzX7DPTCuO3dJzZq7ePYmMKhrf3LGfzE0YCN9sC9uOFOFTMeUcjhouH-zEmJmpMqSLf/pub?embedded=true"
+  },
+  {
     Titulo: "Helena",
     Autor: "Nelipe",
     Data: "22/06/2024",
