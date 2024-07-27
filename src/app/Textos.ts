@@ -8,6 +8,15 @@ interface TextosInterface {
 }
 
 const Textos: Array<TextosInterface> = [
+    {
+    Titulo: "Reflexões de um gato preto",
+    Autor: "Nelipe",
+    Data: "27/07/2024",
+    Path: "reflexoes-de-um -gato-preto",
+    Genero: "Conto",
+    LinkEmbded:
+      "https://docs.google.com/document/d/e/2PACX-1vRV149j2I3e5pX6Iv4UewTvB1y9HaEgB0pXT80b_tuF6CGFBgnwr7ICARKUrqHOuwJQRiv3cLrLzBX5/pub?embedded=true"
+  },
   {
     Titulo: "Amores, Vícios e Obsessões",
     Autor: "Nelipe",
