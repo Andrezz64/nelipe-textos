@@ -15,7 +15,7 @@ const Textos: Array<TextosInterface> = [
     Path: "Um-bug-universal-sem-precedentes",
     Genero: "Crônica",
     LinkEmbded:
-      "https://docs.google.com/document/d/e/2PACX-1vRV149j2I3e5pX6Iv4UewTvB1y9HaEgB0pXT80b_tuF6CGFBgnwr7ICARKUrqHOuwJQRiv3cLrLzBX5/pub?embedded=true"
+      "https://docs.google.com/document/d/e/2PACX-1vT4w88yBB4NhsE_4Hkyh49Db9_0ESjRZWg57s2Duy1S2fnl0k-29iTbtyFfhhRrO5PFLDJBESPVe-BR/pub?embedded=true"
   },
   {
     Titulo: "Reflexões de um gato preto",
