@@ -12,7 +12,7 @@ const Textos: Array<TextosInterface> = [
     Titulo: "Um Bug universal sem precedentes",
     Autor: "Nelipe",
     Data: "06/08/2024",
-    Path: "Um-bug-universal-sem-precedentes,
+    Path: "Um-bug-universal-sem-precedentes",
     Genero: "Crônica",
     LinkEmbded:
       "https://docs.google.com/document/d/e/2PACX-1vRV149j2I3e5pX6Iv4UewTvB1y9HaEgB0pXT80b_tuF6CGFBgnwr7ICARKUrqHOuwJQRiv3cLrLzBX5/pub?embedded=true"
