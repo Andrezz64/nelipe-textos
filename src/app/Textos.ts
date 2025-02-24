@@ -45,15 +45,6 @@ const Textos: Array<TextosInterface> = [
       "https://docs.google.com/document/d/e/2PACX-1vSMzZM_GBcxBJz4wmuyE8kRNguyJJFr1jlAhvX0wNN0_ycITt6dTe3Fzx9qOzAzdfX0bwMKdKwsk39a/pub?embedded=true"
   },
   {
-    Titulo: "O desespero de te amar/me odiar",
-    Autor: "Nelipe",
-    Data: "15/06/2024",
-    Path: "o-desespero-de-te-amar-me-odiar",
-    Genero: "Crônica reflexiva",
-    LinkEmbded:
-      "https://docs.google.com/document/d/e/2PACX-1vScAkXsYxSx0qGu0eLsAvG4xpMSSDugjGXZ3eR9SlANBMTTxKtgutmRB-sLXh3bFGuwz-0VhLbf6aMH/pub?embedded=true"
-  },
-  {
     Titulo: "Pensamentos, insónias e paranoias ",
     Autor: "Nelipe",
     Data: "14/05/2023",
