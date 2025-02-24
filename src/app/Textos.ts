@@ -36,15 +36,6 @@ const Textos: Array<TextosInterface> = [
       "https://docs.google.com/document/d/e/2PACX-1vSL0Yrn_8Qe4nzX7DPTCuO3dJzZq7ePYmMKhrf3LGfzE0YCN9sC9uOFOFTMeUcjhouH-zEmJmpMqSLf/pub?embedded=true"
   },
   {
-    Titulo: "Helena",
-    Autor: "Nelipe",
-    Data: "22/06/2024",
-    Path: "helena",
-    Genero: "Crônica",
-    LinkEmbded:
-      "https://docs.google.com/document/d/e/2PACX-1vSMzZM_GBcxBJz4wmuyE8kRNguyJJFr1jlAhvX0wNN0_ycITt6dTe3Fzx9qOzAzdfX0bwMKdKwsk39a/pub?embedded=true"
-  },
-  {
     Titulo: "Pensamentos, insónias e paranoias ",
     Autor: "Nelipe",
     Data: "14/05/2023",
